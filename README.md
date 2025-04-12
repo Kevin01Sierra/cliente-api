@@ -5,8 +5,8 @@ Este proyecto es una aplicación web para la gestión de clientes desarrollada c
 ## Estructura del Proyecto
 
 El proyecto está dividido en dos partes principales:
-- **Backend**: API REST desarrollada con Node.js y Express
-- **Frontend**: Interfaz de usuario desarrollada con React
+- **Backend**: API REST desarrollada con Node.js y Express (carpeta server)
+- **Frontend**: Interfaz de usuario desarrollada con React (carpeta client)
 
 ## Requisitos Previos
 
@@ -27,7 +27,7 @@ El proyecto está dividido en dos partes principales:
 ## Instalación y Ejecución del Backend
 
 1. Clonar el repositorio
-2. Navegar a la carpeta del backend
+2. Navegar a la carpeta del backend (carpeta server)
 3. Instalar dependencias:
    ```bash
    npm install express mysql2 cors body-parser
@@ -49,7 +49,7 @@ El proyecto está dividido en dos partes principales:
 
 ## Instalación y Ejecución del Frontend
 
-1. Navegar a la carpeta del frontend
+1. Navegar a la carpeta del frontend (carpeta client)
 2. Instalar dependencias:
    ```bash
    npm install react react-dom react-scripts
